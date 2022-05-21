@@ -10,6 +10,8 @@ Here we are using [CCXT CryptoCurrency eXchange Trading Library]( https://github
 - [CCXT CryptoCurrency eXchange Trading Library]( https://github.com/ccxt/ccxt) : Or use `pip install ccxt`
 - Pyttsx3 Python speech-to-text library: use `pip install pyttsx3`.
 
+**NOTE:** This **BOT** and **VIDEO** is for **Educational Purpose** only and learning how to integrate _Binance_ and other API's like _Twilio_.
+
 ## Bot Config.
 In order to run bot you need to configure it as per your requirements.</br>
 Go to file `BotConfig.py` and change parameters as per required.</br>
@@ -42,5 +44,8 @@ To Change candle timestamps change following line:</br>
 - API Integration: CCXT is very fast and reliable library for Binance and other cyrpto exchanges.</br>
 - Cyprto Exchanges : All of the crypto exchanges supported by ccxt.</br>
 - Easy Config : Bot is easy to configure and customisable for other exchanges using ccxt.</br>
+
+# Bot Demo on YouTube :
+[![BOT Demo](https://img.youtube.com/vi/n1g-XPzOPOI/0.jpg)](https://www.youtube.com/watch?v=n1g-XPzOPOI)
 
 written and maintained by Haseeb Mir (haseebmir.hm@gmail.com)
