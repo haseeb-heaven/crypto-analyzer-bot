@@ -8,20 +8,20 @@ Date: 17/05/2022
 #Bot Configurations.
 
 # Bot init variables.
-bot_running = True
-bot_alert_type = "message" #"voice" or "message"
+BOT_RUNNING = True
+BOT_ALERT_TYPE = "voice" #"voice" or "message"
     
 #Authentication section.
 
 #Binance Auth.
-api_key = "" #Binance API Key here.
-secret_key = "" #Binance Secret Key here.#
+API_KEY = "" #Binance API Key here.
+SECRET_KEY = "" #Binance Secret Key here.#
 
 #Twilio Auth.
-account_sid = "" #Twilio Account SID here.
-auth_token = "" #Twilio Auth token here.
-from_contact = "" #Twilio From Contact here.
-to_contact = "" #Twilio To Contact here.
+ACCOUNT_SID = "" #Twilio Account SID here.
+AUTH_TOKEN = "" #Twilio Auth token here.
+FROM_CONTACT = "" #Twilio From Contact here.
+TO_CONTACT = "" #Twilio To Contact here.
 
 #Symbol to trade.
 _quote_curr:str = "LUNA" #Symbol select.
@@ -34,7 +34,7 @@ candle_min_pnl:float = 0 #Min profit in candle.
 candle_max_pnl:float = 0 #Max profit in candle.
 candle_const_pnl:float = 10 #Constant profit
 
-candle_timestamp = candle_timestamps[3] #5 Min candle timestamp.
+CANDLE_TIMESTAMP = candle_timestamps[3] #5 Min candle timestamp.
 
 #DONT EDIT THIS.
-symbol = _quote_curr + '/' + _base_curr
+SYMBOL = _quote_curr + '/' + _base_curr
